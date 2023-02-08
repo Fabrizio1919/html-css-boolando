@@ -102,6 +102,11 @@ img{
 }
 
 
+.card:hover .hearts {
+    display: block;
+    color: red;
+}
+
 
 
 
