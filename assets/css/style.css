@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 .container {
     width: 70%;
     max-width: 1152px;
@@ -53,6 +57,25 @@ img{
 }
 
 .col{
-    width: calc(100% / 12 * 6);
+    width: calc(100% / 12 * 4);
     padding: 0.5rem;
+}
+
+.brands{
+font-size: 15px;
+}
+
+.spacies{
+    font-size: 20px;
+
+}
+
+.price{
+    color: #ff0000;
+}
+
+.price-underline{
+    text-decoration: line-through;
+    color: black;
+    margin-left: 10px;
 }
