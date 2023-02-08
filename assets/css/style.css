@@ -9,3 +9,50 @@
     max-width: 1152px;
     margin: auto;
 }
+.flex{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding-bottom: 15px;
+
+}
+
+:root{
+    --tb-orange: #ff6900;
+    --tb-red: #ff0000;
+    --tb-green: #238a23;
+    --tb-footer: #1a1a1a;
+}
+
+#app-header {
+    background-color: #ff6900;
+    padding: 2rem;
+
+}
+
+.logo-boolean img{
+    width: 100px;
+}
+
+.icons i{
+    color: white;
+}
+
+img{
+    width: 100%;
+}
+
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.col{
+    width: calc(100% / 12 * 6);
+    padding: 0.5rem;
+}
