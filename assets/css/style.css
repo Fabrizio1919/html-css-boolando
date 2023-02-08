@@ -39,8 +39,17 @@ a{
 
 }
 
+.scelta{
+    display: flex;
+    flex-grow: 1;
+}
+
+.logo-boolean{
+    flex-grow: 1;
+}
+
 .logo-boolean img{
-    width: 100px;
+    width: 130px;
 }
 
 .icons i{
